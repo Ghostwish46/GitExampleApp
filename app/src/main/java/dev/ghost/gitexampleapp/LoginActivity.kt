@@ -9,9 +9,5 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-
-        buttonLogin.setOnClickListener {
-            Toast.makeText(this, "Введите логин", Toast.LENGTH_SHORT).show()
-        }
     }
 }

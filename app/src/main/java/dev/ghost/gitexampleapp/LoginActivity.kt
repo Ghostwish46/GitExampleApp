@@ -11,7 +11,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         buttonLogin.setOnClickListener {
-            Toast.makeText(this, "Test", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Введите логин", Toast.LENGTH_SHORT).show()
         }
     }
 }
